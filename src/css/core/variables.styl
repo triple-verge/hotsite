@@ -1,3 +1,28 @@
 $anim-duration = .5s
 $anim-duration-fast = .25s
 $anim-duration-slow = 1s
+
+$degrees = -1.75deg
+
+/*
+ * Breakpoints
+ * Use this site to name the breakpoints:
+ * http://dwarf.namegeneratorfun.com/
+ */
+$bp-delwin = "only screen and (min-width: " + unit(600, 'px') + ")"
+$bp-quinn = "only screen and (min-width: " + unit(1200, 'px') + ")"
+
+/*
+ * Functions
+ */
+imgPath(path)
+	url('/img/' + path)
+
+
+setPageBG(image)
+	background-image imgPath('backgrounds/' + image + '-05x.jpg')
+	background-position 50% 50%
+	background-size cover
+
+	@media $bp-quinn
+		background-image imgPath('backgrounds/' + image + '.jpg')
