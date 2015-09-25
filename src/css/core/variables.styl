@@ -9,7 +9,8 @@ $degrees = -1.75deg
  * Use this site to name the breakpoints:
  * http://dwarf.namegeneratorfun.com/
  */
-$bp-quinn = "only screen and (min-width: " + unit(600, 'px') + ")"
+$bp-quinn = "only screen and (min-width: " + unit(480, 'px') + ")"
+$bp-copper = "only screen and (min-width: " + unit(700, 'px') + ")"
 
 /*
  * Functions
@@ -21,6 +22,7 @@ imgPath(path)
 setPageBG(image)
 	background-image imgPath('backgrounds/' + image + '-05x.jpg')
 	background-position 50% 50%
+	background-attachment fixed
 	background-size cover
 
 	@media $bp-quinn

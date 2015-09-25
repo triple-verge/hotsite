@@ -1,0 +1,60 @@
+#footer
+	position absolute
+	bottom 0
+	left rem(-1)
+	right rem(-1)
+	font-weight $font-weight-normal
+	text-align center
+
+	@media $bp-copper
+		font-weight $font-weight-thin
+
+	&:before
+		content ''
+		position absolute
+		top rem(-105)
+		left -1px
+		right -1px
+		height rem(150)
+		background $color-white
+		transform translateY(50%) rotate($degrees) skew($degrees)
+		z-index -1
+
+	p
+		margin 0 auto
+		padding 0 rem(30) rem(10)
+		max-width rem(1000)
+
+.contact
+	display block
+	margin-bottom rem(15)
+	font-size $font-size-large
+	color $color-tundora
+
+	a
+		display inline-block
+		margin 0 rem(10)
+
+		&:first-child
+			margin-left 0
+
+		&:last-child
+			margin-right 0
+
+	@media $bp-quinn
+		float left
+
+	@media $bp-copper
+		font-size $font-size-base
+
+.copyright
+	font-size $font-size-base
+	color $color-dusty-gray
+
+	@media $bp-quinn
+		float right
+		font-size $font-size-large
+		color $color-tundora
+
+	@media $bp-copper
+		font-size $font-size-base

@@ -2,6 +2,11 @@ body
 	setPageBG('intro')
 	font-family $font-family-brand
 
+section
+	overflow hidden
+	position relative
+	min-height 100%
+
 	&:before
 		content ''
 		position absolute
@@ -13,18 +18,12 @@ body
 		transform translateY(50%) rotate($degrees) skew($degrees)
 		z-index 1
 
-	@media $bp-quinn
-		display table
-		width 100%
+	// @media $bp-quinn
 
 #intro
-	padding-top rem(120)
+	padding rem(120) 0 rem(180)
 	color $color-white
 	text-align center
-
-	@media $bp-quinn
-		display table-cell
-		vertical-align middle
 
 #logo
 	margin 0 auto rem(20)
