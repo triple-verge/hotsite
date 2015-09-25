@@ -1,0 +1,36 @@
+.button
+	position relative
+	display inline-block
+	size rem(75)
+	font-size rem(30)
+	color $color-white
+	opacity .75
+	transition $anim-duration-fast
+
+	@media $bp-h-copper
+		size rem(35)
+		font-size rem(20)
+
+	.icon
+		position center
+
+	&:hover
+		opacity 1
+
+		&:before
+			transform rotate(135deg)
+			transition $anim-duration-fast
+
+	&:before
+		content ''
+		position absolute
+		top 0
+		bottom 0
+		left 0
+		right 0
+		border rem(2) solid $color-white
+		transform rotate(45deg)
+		pointer-events none
+
+		@media $bp-h-copper
+			border-width rem(1)

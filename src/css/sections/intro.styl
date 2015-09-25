@@ -5,7 +5,9 @@ body
 section
 	overflow hidden
 	position relative
+	padding rem(120) 0 rem(150)
 	min-height 100%
+	box-sizing border-box
 
 	&:before
 		content ''
@@ -19,9 +21,12 @@ section
 		z-index 1
 
 #intro
-	padding rem(120) 0 rem(180)
 	color $color-white
 	text-align center
+
+	@media $bp-v-torrie
+		position center
+		width 100%
 
 #logo
 	margin 0 auto rem(20)
