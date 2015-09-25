@@ -1,0 +1,14 @@
+{
+  "name": "mantis-js",
+  "homepage": "https://github.com/acauamontiel/mantis-js",
+  "_release": "1330de151d",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "1330de151de239645072ab8091c3ad425ed74256"
+  },
+  "_source": "git://github.com/acauamontiel/mantis-js.git",
+  "_target": "*",
+  "_originalSource": "mantis-js",
+  "_direct": true
+}

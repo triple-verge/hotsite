@@ -1,0 +1,9 @@
+#############
+## Mantis.js
+#############
+
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+*.html
+/node_modules/

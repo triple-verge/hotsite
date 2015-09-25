@@ -1,0 +1,64 @@
+API Methods:
+
+Ajax:
+ ☐ $.ajax()
+ ☐ .load()
+
+Attributes:
+ ✔ .attr() @done (00-00-00 00:00)
+ ✔ .hasAttr() @done (00-00-00 00:00)
+ ✔ .removeAttr() @done (00-00-00 00:00)
+
+Classes:
+ ✔ .addClass() @done (00-00-00 00:00)
+ ✘ .class() @cancelled (14-02-28 16:20)
+ ✔ .hasClass() @done (00-00-00 00:00)
+ ✔ .removeClass() @done (00-00-00 00:00)
+ ✔ .toggleClass() @done (00-00-00 00:00)
+
+Core:
+ ✔ .each() @done (00-00-00 00:00)
+ ✔ .map() @done (00-00-00 00:00)
+ ✔ .mapOne() @done (00-00-00 00:00)
+
+Events:
+ ✔ .off() @done (14-04-04 22:41)
+ ✔ .on() @done (14-04-04 22:41)
+ ✔ .trigger() @done (00-00-00 00:00)
+
+Forms:
+ ☐ .serialize()
+ ✔ .blur() @done (00-00-00 00:00)
+ ✔ .change() @done (14-03-07 09:58)
+ ✔ .focus() @done (00-00-00 00:00)
+ ✔ .submit() @done (00-00-00 00:00)
+ ✔ .val() @done (00-00-00 00:00)
+
+Manipulation:
+ ☐ .append()
+ ☐ .appendTo()
+ ✔ .empty() @done (00-00-00 00:00)
+ ✔ .html() @done (00-00-00 00:00)
+ ☐ .insertHtml()
+ ☐ .prepend()
+ ✔ .remove() @done (00-00-00 00:00)
+
+Style:
+ ✔ .css() @done (00-00-00 00:00)
+
+Traversing:
+ ☐ .add()
+ ✔ .children() @done (00-00-00 00:00)
+ ✔ .eq() @done (00-00-00 00:00)
+ ☐ .has()
+ ☐ .index()
+ ✔ .filter() @done (14-03-07 11:44)
+ ✔ .find() @done (00-00-00 00:00)
+ ✔ .first() @done (00-00-00 00:00)
+ ✔ .last() @done (00-00-00 00:00)
+ ☐ .next()
+ ✔ .parent() @done (14-03-07 14:34)
+ ☐ .parents()
+ ☐ .prev()
+ ✔ .siblings() @done (14-03-07 13:05)
+ ✔ .slice() @done (00-00-00 00:00)

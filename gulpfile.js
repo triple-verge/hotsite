@@ -123,6 +123,7 @@ gulp.task('copy', function () {
 	var files = [
 		path.src + '*',
 		path.src + 'img/**',
+		path.src + 'dependencies/**',
 		'!' + path.src + 'html',
 		'!' + path.src + 'css',
 		'!' + path.src + 'js'
