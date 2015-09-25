@@ -1208,6 +1208,10 @@ module.exports = function () {
 			logo.init();
 		}
 	}, false);
+
+	$(window).on('load', function () {
+		$('body').addClass('loaded');
+	});
 };
 
 },{"./logo.js":5,"./utils.js":6}],5:[function(require,module,exports){

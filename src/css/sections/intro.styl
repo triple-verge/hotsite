@@ -3,6 +3,7 @@ body
 	font-family $font-family-brand
 
 section
+	display none
 	overflow hidden
 	position relative
 	padding rem(120) 0 rem(150)
@@ -19,6 +20,10 @@ section
 		background $color-white
 		transform translateY(50%) rotate($degrees) skew($degrees)
 		z-index 1
+
+.loaded
+	section
+		display block
 
 #intro
 	color $color-white

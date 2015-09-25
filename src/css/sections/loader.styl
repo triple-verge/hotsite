@@ -1,0 +1,26 @@
+#loader
+	position fixed
+	top 0
+	bottom 0
+	left 0
+	right 0
+	background $color-black
+	transition $anim-duration-slow ($anim-duration-slow * 2)
+	z-index 10
+
+	.icon
+		position center
+		size rem(320)
+		color transparent
+		stroke white
+		stroke-width rem(2)
+		stroke-linecap round
+		stroke-dasharray 1200
+		stroke-dashoffset 1200
+		animation dash 6.66s linear infinite
+
+.loaded
+	#loader
+		opacity 0
+		transform translateZ(0) scale(1.15)
+		visibility hidden
