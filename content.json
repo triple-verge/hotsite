@@ -2,12 +2,12 @@
 	"info" : {
 		"title": "Triple Verge",
 		"subTitle": "Aggressive Web Development",
-		"description": "Nem uma agência, nem apenas mais um serviço de \"PSD to HTML\". Triple Verge é especializada em desenvolvimento front-end, formada por programadores experientes, agressivos e extremamente perigosos. HTML, CSS e JS são devorados no café da manhã!",
-		"keywords": "front-end, web development, outsourcing",
+		"description": "Triple Verge is a software house specialized in front-end development, made by experienced, aggressive and extremely dangerous programmers. HTML, CSS and JS are devoured for breakfast!",
+		"keywords": "front-end, web development, outsourcing, advertising agency",
 		"url": "http://tripleverge.com",
 		"author": "Acauã Montiel",
 		"email": "hello@tripleverge.com",
-		"date": "2015-09-25",
-		"locale": "pt_BR"
+		"date": "2017-09-19",
+		"locale": "en_US"
 	}
 }

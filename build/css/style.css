@@ -1,5 +1,5 @@
 
-/* line 22 : /Users/acauamontiel/www/triple-verge/hotsite/src/css/style.styl */
+/* line 23 : /Users/acauamontiel/www/triple-verge/hotsite/src/css/style.styl */
 
 /* line 1 : /Users/acauamontiel/www/triple-verge/hotsite/node_modules/stylus/lib/functions/index.styl */
 
@@ -701,6 +701,33 @@ section:before {
 }
 
 /* line 1 : /Users/acauamontiel/www/triple-verge/hotsite/src/css/sections/social.styl */
+
+/* line 1 : /Users/acauamontiel/www/triple-verge/hotsite/src/css/sections/reel.styl */
+
+/* line 1 : /Users/acauamontiel/www/triple-verge/hotsite/src/css/sections/reel.styl */
+#reel {
+  display: block;
+  margin: 10px auto;
+  width: 100%;
+}
+@media only screen and (min-width: 700px) {
+
+/* line 6 : /Users/acauamontiel/www/triple-verge/hotsite/src/css/sections/reel.styl */
+  #reel {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin: 0;
+    width: 700px;
+  }
+}
+
+/* line 1 : /Users/acauamontiel/www/triple-verge/hotsite/src/css/sections/reel.styl */
 
 /* line 1 : /Users/acauamontiel/www/triple-verge/hotsite/src/css/sections/footer.styl */
 
