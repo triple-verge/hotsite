@@ -583,7 +583,7 @@ h2 {
 
 /* line 1 : /Users/acauamontiel/www/triple-verge/hotsite/src/css/sections/intro.styl */
 body {
-  background-image: url("/img/backgrounds/intro-05x.jpg");
+  background-image: url("../img/backgrounds/intro-05x.jpg");
   background-position: 50% 50%;
   background-attachment: fixed;
   -webkit-background-size: cover;
@@ -595,7 +595,7 @@ body {
 
 /* line 29 : /Users/acauamontiel/www/triple-verge/hotsite/src/css/core/variables.styl */
   body {
-    background-image: url("/img/backgrounds/intro.jpg");
+    background-image: url("../img/backgrounds/intro.jpg");
   }
 }
 

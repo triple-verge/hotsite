@@ -1271,7 +1271,7 @@ logo.animateLights = function () {
 };
 
 logo.addLogo = function () {
-	loader.load('img/logo.obj', function (obj) {
+	loader.load('./img/logo.obj', function (obj) {
 		var material = new THREE.MeshLambertMaterial({
 				color: 0xffffff
 			});
