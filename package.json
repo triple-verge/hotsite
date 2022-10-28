@@ -16,7 +16,7 @@
 	"author": "Acauã Montiel <contato@acauamontiel.com.br>",
 	"license": "MIT",
 	"dependencies": {
-		"browser-sync": "^2.7.13",
+		"browser-sync": "^2.27.10",
 		"browserify": "^10.2.4",
 		"gulp": "^3.9.0",
 		"gulp-data": "^1.2.0",
